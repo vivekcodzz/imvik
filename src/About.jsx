@@ -16,8 +16,8 @@ const About = () => {
           as i can. currently, i do it with software and design.
         </p>
         <div className="links_sec">
-          <div className="ll">TW</div>
-          <div className="ll">IG</div>
+          <a className="ll" href="https://twitter.com/vik_codes">TW</a>
+          <a className="ll" href="https://www.instagram.com/the.vivek.kushwaha/">IG</a>
         </div>
       </div>
       <Footer/>
