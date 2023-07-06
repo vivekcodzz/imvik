@@ -18,6 +18,7 @@ const About = () => {
         <div className="links_sec">
           <a className="ll" href="https://twitter.com/vik_codes">TW</a>
           <a className="ll" href="https://www.instagram.com/the.vivek.kushwaha/">IG</a>
+          <a className="ll" href="https://795gjj.csb.app">CP</a>
         </div>
       </div>
       <Footer/>
