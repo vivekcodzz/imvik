@@ -6,7 +6,7 @@ const Writing = () => {
   return (
     <div className="Main">
     <div className="container">
-      <img src="/images/coverWriting.png" alt="" />
+      <img className="vik-img" src="/images/coverWriting.png" alt="" />
       <Nav/>
     </div>
     <div className="About_sec">

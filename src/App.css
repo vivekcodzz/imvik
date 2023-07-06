@@ -3,7 +3,6 @@
 *{
   margin: 0;
   padding: 0;
-  /* border: 2px solid red; */
 
 }
 
@@ -12,10 +11,6 @@ body{
   color: antiquewhite;
   font-family: 'Poppins', sans-serif;
 
-}
-
-.Main{
-  display: block;
 }
 
 .container{
@@ -56,7 +51,7 @@ ul {
   max-width: 600px;
   justify-content: center;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 25px;
   gap: 40px;
   height:100px;
 }
@@ -91,9 +86,32 @@ ul {
   max-width: 600px;
   color: #424038;
   height: 100px;
+  padding-top: 20px;
 }
 
 NavLink{
   letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 600px){
+  .vik-img{
+    width: 400px;
+    overflow-x: hidden;
+  }
+  .menu{
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+    top: 50%;
+  }
+  .container{
+    margin-top: 0%;
+  }
+  .About_sec{
+    margin-top: 70px;
+    padding: 15px;
+    }
+    .footer{
+      padding: 10px;
+    }
+}

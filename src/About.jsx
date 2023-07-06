@@ -7,13 +7,13 @@ const About = () => {
   return (
     <div className="Main">
       <div className="container">
-        <img src="/images/cover.png" alt="" />
+        <img className="vik-img" src="/images/cover.png" alt="" />
         <Nav/>
       </div>
       <div className="About_sec">
         <p>
           hi, i'm vivek. i seek to create and consume beauty, in as many forms
-          as i can. currently, i do it with software and design.
+          as i can.<br/ >  currently, i do it with software and design.
         </p>
         <div className="links_sec">
           <a className="ll" href="https://twitter.com/vik_codes">TW</a>

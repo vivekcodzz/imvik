@@ -7,6 +7,7 @@ const linkStyle = ({ isActive }) => ({
   
 });
 
+
 const Nav = () => {
   return (
     <div className="menu">
